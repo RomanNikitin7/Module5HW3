@@ -90,13 +90,12 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
-            src="logo.png"
+            src="https://reqres.in/img/logo.png"
             alt=""
-            width="30"
+            width="auto"
             height="24"
             class="d-inline-block align-text-top"
           />
-          My website
         </a>
         <button
           class="navbar-toggler"
@@ -225,6 +224,84 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/7-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Michael Lawson</h5>
+                  <p class="card-text">michael.lawson@reqres.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/8-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lindsay Ferguson</h5>
+                  <p class="card-text">lindsay.ferguson@reqres.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/9-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Tobias Funke</h5>
+                  <p class="card-text">tobias.funke@reqres.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/10-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Byron Fields</h5>
+                  <p class="card-text">byron.fields@reqres.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/11-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">George Edwards</h5>
+                  <p class="card-text">george.edwards@reqres.in</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://reqres.in/img/faces/12-image.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Rachel Howell</h5>
+                  <p class="card-text">rachel.howell@reqres.in</p>
+                </div>
+              </div>
+            </div>                        
           </div>
           <ul class="pagination justify-content-center mt-3">
             <li class="page-item disabled" id="previous-btn">
@@ -236,6 +313,12 @@
             <li class="page-item">
               <a class="page-link" href="#" data-page="2">2</a>
             </li>
+            <li class="page-item">
+              <a class="page-link" href="#" data-page="3">3</a>
+            </li>    
+            <li class="page-item">
+              <a class="page-link" href="#" data-page="4">4</a>
+            </li>          
             <li class="page-item" id="next-btn">
               <a class="page-link" href="#">Next</a>
             </li>
@@ -249,34 +332,24 @@
               <div class="invalid-feedback">Please provide a name.</div>
             </div>
             <div class="mb-3">
-              <label for="userSurname" class="form-label">Surname</label>
+              <label for="userJob" class="form-label">Job</label>
               <input
                 type="text"
                 class="form-control"
-                id="userSurname"
+                id="userJob"
                 required
               />
-              <div class="invalid-feedback">Please provide a surname.</div>
+              <div class="invalid-feedback">Please provide a job.</div>
             </div>
             <div class="mb-3">
-              <label for="userEmail" class="form-label">Email address:</label>
+              <label for="userID" class="form-label">Id:</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="userEmail"
+                id="userID"
                 required
               />
-              <div class="invalid-feedback">Please provide a valid email.</div>
-            </div>
-            <div class="mb-3">
-              <label for="userPassword" class="form-label">Password: </label>
-              <input
-                type="password"
-                class="form-control"
-                id="userPassword"
-                required
-              />
-              <div class="invalid-feedback">Please provide a password.</div>
+              <div class="invalid-feedback">Please provide a ID.</div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
